@@ -1,7 +1,6 @@
 # New Computer Setup 
 
-This is the list of all the software needed to get a new development environment set up. 
-
+This is the list of all the software needed to get a new development environment set up. Additionally, this folder has a `.zshrc` file with some custom aliases and configuration that helps bootstrap a new development environment. 
 
 
 ## Apps 
@@ -35,7 +34,6 @@ This is the list of all the software needed to get a new development environment
   - [Magnet –> App Store](https://magnet.crowdcafe.com/) 
 
 
-
 ## VSCode Extensions
 
 - [bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer): a customizable extension for colorizing matching brackets
@@ -49,4 +47,3 @@ This is the list of all the software needed to get a new development environment
 - [Writing Markdown](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
 - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Visual Studio Code
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log): Automating the process of writing meaningful log messages.
-
