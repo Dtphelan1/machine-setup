@@ -32,6 +32,8 @@ This is the list of all the software needed to get a new development environment
   - [Typora](https://typora.io/)
   - [Todoist](https://todoist.com/) 
   - [Lastpass](https://www.lastpass.com/)
+  - [Bitwarden](https://bitwarden.com/)
+    - [Bitwarden Shortcuts](https://bitwarden.com/help/keyboard-shortcuts/)
   - [Magnet –> App Store](https://magnet.crowdcafe.com/) 
 
 
@@ -48,3 +50,6 @@ This is the list of all the software needed to get a new development environment
 - [Writing Markdown](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one): All you need to write Markdown (keyboard shortcuts, table of contents, auto preview and more)
 - [Markdown Lint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Visual Studio Code
 - [Turbo Console Log](https://marketplace.visualstudio.com/items?itemName=ChakrounAnas.turbo-console-log): Automating the process of writing meaningful log messages.
+
+## General Commands
+- `git config --global core.excludesfile ~/some/path/here/machine-setup/.gitignore`: link this project's gitignore for global usage 
