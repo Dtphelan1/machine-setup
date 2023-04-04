@@ -37,7 +37,6 @@ This is the list of all the software needed to get a new development environment
 
 ## VSCode Extensions
 
-- [bracket-pair-colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer): a customizable extension for colorizing matching brackets
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): Spelling checker for source code
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrates ESLint JavaScript into VS Code
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest): Use Facebook's Jest With Pleasure
