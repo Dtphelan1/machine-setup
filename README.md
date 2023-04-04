@@ -7,8 +7,9 @@ This is the list of all the software needed to get a new development environment
 
 - General Purpose
   - [Firefox](https://www.mozilla.org/en-US/firefox/new/) 
-  - [Brave](https://brave.com/) 
   - [Spotify](https://www.spotify.com/us/download/other/)
+  - [Slack](https://slack.com/)
+  - [Discord](https://discord.com/)
 - Dev Tools
   - [Homebrew](https://brew.sh/)
   - [XCode](https://developer.apple.com/xcode/) 
