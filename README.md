@@ -30,7 +30,6 @@ This is the list of all the software needed to get a new development environment
 - Productivity Tools
   - [Typora](https://typora.io/)
   - [Todoist](https://todoist.com/) 
-  - [Lastpass](https://www.lastpass.com/)
   - [Bitwarden](https://bitwarden.com/)
     - [Bitwarden Shortcuts](https://bitwarden.com/help/keyboard-shortcuts/)
   - [Rectangle](https://rectangleapp.com/) 
