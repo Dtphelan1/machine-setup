@@ -13,6 +13,7 @@ This is the list of all the software needed to get a new development environment
   - [XCode](https://developer.apple.com/xcode/) 
   - [OhMyZsh](https://ohmyz.sh/)
   - [iTerm2](https://iterm2.com/)
+    - Import default profile found at `default-iterm2.json` in this project's root directory
   - [Postman](https://www.postman.com/downloads/?utm_source=postman-home) 
   - [Nvm](https://github.com/nvm-sh/nvm)  
   - [Pyenv](https://github.com/pyenv/pyenv#installation) 
