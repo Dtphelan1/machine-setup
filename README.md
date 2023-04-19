@@ -22,7 +22,7 @@ This is the list of all the software needed to get a new development environment
   - [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) 
   - [VsCode & Extensions](https://code.visualstudio.com/) 
     - [Set up the Code command in your path](https://code.visualstudio.com/docs/setup/mac)
-    - See the extensions [below](#VSCode Extensions)
+    - See the extensions [below](#vscode-extensions)
   - [Vue](https://cli.vuejs.org/guide/installation.html)
   - [Yarn](https://yarnpkg.com/) 
   - [Set up SSH Keys for on GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
