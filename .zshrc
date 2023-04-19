@@ -70,7 +70,11 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+    git
+    copypath
+    zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -112,31 +116,10 @@ alias c="clear"
 # Git shortcuts
 alias grlc='git rev-list --left-right --count'
 
-# Python/pyenv
-eval "$(pyenv init -)"
-if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
-
-# Rbenv
-eval "$(rbenv init -)"
-
-# Mongo Aliases
-alias mongod='brew services run mongodb-community'
-alias mongod-status='brew services list'
-alias mongod-stop='brew services stop mongodb-community'
-
-# yarn
-alias yarn-audit-fix="npm i --package-lock-only && npm audit fix && rm yarn.lock && yarn import && rm package-lock.json"
-
-# rbenv paths
-export PATH="$HOME/.gem/ruby/3.0.0/bin:$PATH"
-
-# NVM custom
+# NVM 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# OpenSSL path addition
-export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"
 
 # Typora alias
 alias typora="open -a typora"

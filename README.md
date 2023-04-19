@@ -12,6 +12,7 @@ This is the list of all the software needed to get a new development environment
   - [Homebrew](https://brew.sh/)
   - [XCode](https://developer.apple.com/xcode/) 
   - [OhMyZsh](https://ohmyz.sh/)
+    - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
   - [iTerm2](https://iterm2.com/)
     - Import default profile found at `default-iterm2.json` in this project's root directory
   - [Postman](https://www.postman.com/downloads/?utm_source=postman-home) 
@@ -34,6 +35,7 @@ This is the list of all the software needed to get a new development environment
   - [Bitwarden](https://bitwarden.com/)
     - [Bitwarden Shortcuts](https://bitwarden.com/help/keyboard-shortcuts/)
   - [Rectangle](https://rectangleapp.com/) 
+  - Set up a folder as a default location for [screenshots](https://www.howtogeek.com/809107/where-do-screenshots-go-on-mac/)
 
 
 ## VSCode Extensions
@@ -51,3 +53,6 @@ This is the list of all the software needed to get a new development environment
 
 ## General Commands
 - `git config --global core.excludesfile ~/some/path/here/machine-setup/.gitignore`: link this project's gitignore for global usage 
+- `git config --global user.name "Dylan Phelan"`
+- `git config --global user.email "Dtphelan1@gmail.com"`
+- 
