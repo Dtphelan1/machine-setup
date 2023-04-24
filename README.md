@@ -30,10 +30,10 @@ This is the list of all the software needed to get a new development environment
   - [Slack](https://slack.com/) 
   - [Discord](https://discord.com/)
 - Productivity Tools
-  - [Typora](https://typora.io/)
-  - [Todoist](https://todoist.com/) 
   - [Bitwarden](https://bitwarden.com/)
     - [Bitwarden Shortcuts](https://bitwarden.com/help/keyboard-shortcuts/)
+  - [Typora](https://typora.io/)
+  - [Todoist](https://todoist.com/downloads) 
   - [Rectangle](https://rectangleapp.com/) 
   - Set up a folder as a default location for [screenshots](https://www.howtogeek.com/809107/where-do-screenshots-go-on-mac/)
 

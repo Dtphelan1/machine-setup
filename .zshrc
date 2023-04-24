@@ -104,7 +104,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
 #################
 ## DPhelan Edits
 
@@ -112,6 +111,7 @@ source $ZSH/oh-my-zsh.sh
 alias modzsh="code ~/.zshrc"
 alias srczsh="source ~/.zshrc"
 alias c="clear"
+alias envExport="export $(xargs <.env)"
 
 # Git shortcuts
 alias grlc='git rev-list --left-right --count'
