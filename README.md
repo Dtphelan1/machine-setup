@@ -63,4 +63,4 @@ This is the list of all the software needed to get a new development environment
 - `git config --global core.excludesfile ~/some/path/here/machine-setup/.gitignore`: link this project's gitignore for global usage 
 - `git config --global user.name "Dylan Phelan"`
 - `git config --global user.email "Dtphelan1@gmail.com"`
-
+- Make sure you set up [tab navigation on your new mac](https://support.apple.com/en-us/HT204434#fullkeyboard), so you don't waste an hour wondering why you can't tab into anchor tabs. I.e. make sure you hit `Fn-Control-F7`
