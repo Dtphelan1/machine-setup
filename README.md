@@ -12,11 +12,15 @@ This is the list of all the software needed to get a new development environment
   - [Homebrew](https://brew.sh/)
   - [XCode](https://developer.apple.com/xcode/) 
   - [OhMyZsh](https://ohmyz.sh/)
-    - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md)
+    - See .zshrc for recommended plugins to install
   - [iTerm2](https://iterm2.com/)
     - Import default profile found at `default-iterm2.json` in this project's root directory
   - [Postman](https://www.postman.com/downloads/?utm_source=postman-home) 
   - [Nvm](https://github.com/nvm-sh/nvm)  
+  - [Docker](https://docs.docker.com/desktop/install/mac-install/)
+  - Open API Tools
+    - [Swagger CodeGen](https://github.com/swagger-api/swagger-codegen#getting-started)
+    - [Swagger UI](https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/installation.md)
   - [Pyenv](https://github.com/pyenv/pyenv#installation) 
     - [Related software for pyenv-build](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
   - [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) 
@@ -25,6 +29,9 @@ This is the list of all the software needed to get a new development environment
     - See the extensions [below](#vscode-extensions)
   - [Vue](https://cli.vuejs.org/guide/installation.html)
   - [Yarn](https://yarnpkg.com/) 
+  - GNU Stuff?
+    - [GNU sed](https://formulae.brew.sh/formula/gnu-sed)
+    - [GNU coreutils](https://formulae.brew.sh/formula/coreutils)
   - [Set up SSH Keys for on GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 - Communication Tools
   - [Slack](https://slack.com/) 

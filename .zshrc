@@ -21,7 +21,7 @@ ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
+HYPHEN_INSENSITIVE="true"
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -73,7 +73,10 @@ ZSH_THEME="robbyrussell"
 plugins=(
     git
     copypath
+    # git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
     zsh-autosuggestions
+     # git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
+    zsh-autocomplete
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -111,7 +114,8 @@ source $ZSH/oh-my-zsh.sh
 alias modzsh="code ~/.zshrc"
 alias srczsh="source ~/.zshrc"
 alias c="clear"
-alias envExport="export $(xargs <.env)"
+# alias envExport="export $(xargs <.env)"
+alias grmcl="gaa; gcmsg 'remove console logs'; gp"
 
 # Git shortcuts
 alias grlc='git rev-list --left-right --count'
@@ -149,6 +153,15 @@ alias typora="open -a typora"
 # Java 
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 
+# Gnu Sed and CoreUtils
+export PATH="/opt/homebrew/opt/gnu-sed/libexec/gnubin:$PATH" 
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
+# Make sure that colors are working in ls
+alias ls="gls --color=always"
+
+# Python
+export PATH="$HOME/Library/Python/3.9/bin:$PATH"
+
 # Mongo
 alias startMongo="sudo brew services start mongodb/brew/mongodb-community"
 alias stopMongo="sudo brew services stop mongodb-community@7.0"
@@ -156,3 +169,7 @@ alias stopMongo="sudo brew services stop mongodb-community@7.0"
 # Redis
 alias startRedis="sudo brew services start redis"
 alias stopRedis="sudo brew services stop redis"
+
+# Poetry
+export PATH="$HOME/.local/bin:$PATH"
+# Make sure you update poetry to store venvs in projects for ease of integration with vscode: https://stackoverflow.com/questions/59882884/vscode-doesnt-show-poetry-virtualenvs-in-select-interpreter-option 
