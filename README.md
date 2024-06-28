@@ -32,6 +32,9 @@ This is the list of all the software needed to get a new development environment
   - GNU Stuff?
     - [GNU sed](https://formulae.brew.sh/formula/gnu-sed)
     - [GNU coreutils](https://formulae.brew.sh/formula/coreutils)
+  - Brew Installs
+	- `brew install rename`
+	- `brew install jq` 
   - [Set up SSH Keys for on GitHub](https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 - Communication Tools
   - [Slack](https://slack.com/) 
